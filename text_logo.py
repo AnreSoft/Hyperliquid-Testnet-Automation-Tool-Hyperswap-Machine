@@ -23,4 +23,4 @@ hyperswap_machine ='''
 /_/  /_/\__,_/\___/_/ /_/_/_/ /_/\___/    |___(_)_/   
 '''
 
-footer = "AnreSoft | Hyperswap Machine v.1 | "
+footer = "AnreSoft | Hyperswap Machine v.1 | https://github.com/AnreSoft"
