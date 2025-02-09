@@ -1,0 +1,98 @@
+[
+  {
+    "steps": [
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "PURR",
+          "amount_in": 0.05,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "PURR",
+          "token_out": "CATBAL",
+          "amount_in": 0.9,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "CATBAL",
+          "token_out": "PURR",
+          "amount_in": 0.9,
+          "amount_out_min": 0
+        }
+      }
+    ]
+  },
+
+
+  {
+    "steps": [
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "PURR",
+          "amount_in": 0.02,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "CATBAL",
+          "amount_in": 0.02,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "JEFF",
+          "amount_in": 0.2,
+          "amount_out_min": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "steps": [
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "PURR",
+          "amount_in": 0.02,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "PURR",
+          "token_out": "USDC",
+          "amount_in": 0.9,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "USDC",
+          "token_out": "WETH",
+          "amount_in": 0.7,
+          "amount_out_min": 0
+        }
+      }
+    ]
+  }
+]

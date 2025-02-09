@@ -1,0 +1,89 @@
+This file contains examples of possible routes for the software.
+Available methods: swap (staking) | wrap | unwrap | add_liquidity
+
+IMPORTANT!
+To swap HYPE for any other token, you must use WETH. For adding liquidity,
+you also need to use WETH, but first, you must wrap the required amount.
+
+
+Routes follow a structured format where all routes are enclosed in square brackets [].
+Each individual route is enclosed in curly brackets {} and contains the steps: [] parameter.
+Each step within the route is also enclosed in curly brackets {}, specifying the action name and its parameters.
+
+EXAMPLE: Swap (To perform staking, you need to swap WETH for stHYPE)
+
+[
+  {
+    "steps": [
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "WETH",
+          "token_out": "USDC",
+          "amount_in": 0.05,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "USDC",
+          "token_out": "PURR",
+          "amount_in": 0.9,
+          "amount_out_min": 0
+        }
+      },
+      {
+        "action": "swap",
+        "params": {
+          "token_in": "PURR",
+          "token_out": "WETH",
+          "amount_in": 0.9,
+          "amount_out_min": 0
+        }
+      }
+    ]
+  }
+]
+
+EXAMPLE: Wrap/Unwrap (Two different routes)
+
+[
+  {
+    "steps": [
+      {
+        "action": "unwrap_eth",
+        "params": {
+          "amount_in_weth": 3
+        }
+      }
+    ]
+  },
+  {
+    "steps": [
+      {
+        "action": "wrap_eth",
+        "params": {
+          "amount_in_eth": 3
+        }
+      }
+    ]
+  }
+]
+
+EXAMPLE: Add Liquidity (Before adding liquidity, make sure to wrap ETH if you are creating a pair for HYPE/WETH)
+
+[
+  {
+    "steps": [
+      {
+        "action": "add_liquidity",
+        "params": {
+          "token_a": "WETH",
+          "token_b": "PURR",
+          "amount_a": 1
+        }
+      }
+    ]
+  }
+]
