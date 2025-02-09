@@ -134,4 +134,4 @@ Customize the software to your needs using the following parameters:
 
 Use this software to automate transactions in the Hyperliquid testnet. The earlier you start, the higher your chances of earning rewards! Stay tuned for updates, as we’re already working on automating other projects on HyperEVM.
 
-If you have any questions or suggestions, feel free to create an [issue](https://github.com/AnreSoft/Hyperliquid-Testnet-Automation-Tool-Hyperswap-Machine-/issues) in this repository.
+If you have any questions or suggestions, feel free to create an [issue](https://github.com/AnreSoft/Hyperliquid-Testnet-Automation-Tool-Hyperswap-Machine/issues) in this repository.
