@@ -20,7 +20,6 @@ The software is designed to automate transactions in the Hyperliquid testnet and
 - **Swap HYPE to stHYPE (staking)**
 - **WRAP/UNWRAP HYPE**
 - **Add liquidity to a pool**
-- **Save balances of all tokens for all wallets after completing all steps**
 - **Logging of all processes**
 
 ### Key Features
@@ -29,6 +28,10 @@ The software is designed to automate transactions in the Hyperliquid testnet and
 3. Ability to use proxies
 4. Flexible configuration settings
 5. Comprehensive logging
+   ![image](https://github.com/user-attachments/assets/a6390b48-0b2a-4faf-8acc-bc4601fe413e)
+6. Save balances of all tokens for all wallets after completing all steps
+   ![image](https://github.com/user-attachments/assets/7fc25b23-a56e-4626-9d47-bd0ea0844ec3)
+
 
 ---
 
