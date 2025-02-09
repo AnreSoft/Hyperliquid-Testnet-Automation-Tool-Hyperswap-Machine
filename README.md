@@ -67,6 +67,7 @@ If you already have a Hyperliquid account, follow these steps to start testing *
 2. **Get Test Tokens**:
    - Go to the **Faucet** tab.
    - Claim **1000 test USDC**.
+     
   ![Capture1](https://github.com/user-attachments/assets/ff7061d1-04ae-412d-b4ab-3992fc2d02a1)
 
 3. **Buy HYPE**:
